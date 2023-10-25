@@ -1,0 +1,54 @@
+
+.categoria{
+    margin-left: 15px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.container{   
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.item{
+    width: 30%;
+    height: auto;
+    margin-bottom: 7px;
+    
+}
+.item img{
+    width: 50%;
+    height: 100%;
+}
+.containerPelicula{
+
+    display: flex;
+    flex-wrap:wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+.item2{
+    width: 30%;
+    height: auto;
+    margin-bottom: 7px
+}
+.item2 img{
+    width: 50%;
+    height: 100%;
+}
+.buscador{
+    border-radius: 10px;
+    width: 30%;
+    height: 35px;
+    margin-top: 10px;
+}
+h2{
+    text-align: left;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+#peliculas{
+    background-image:url(../img/banner2.png);
+}

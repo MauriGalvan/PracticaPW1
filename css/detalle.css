@@ -1,0 +1,88 @@
+.contenido{
+    margin: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* Iframe y boton */
+.video{
+    text-align: center;
+    margin-left: 60px;
+}
+
+.video iframe{
+    border-radius: 10px;
+}
+
+.video iframe:hover {
+    filter: brightness(70%);
+}
+
+.video a input{
+    margin-top: 5px;
+}
+
+/* Informacion */
+.info{
+    margin-left: 50px;
+}
+
+.info h1{
+    margin: 10px 0px;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Actores */
+.actores{
+    margin: 10px 30px 10px 0px;
+}
+
+.actores li{
+    list-style:none;
+    display: inline;
+}
+
+.boton{
+    background-color: rgb(87, 149, 207);
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 500px;
+    height: 50px;
+    font-size: 15px;
+}
+
+/* Le puede interesar */
+
+.otros h3{
+    text-align: center;
+    font-size: 25px;
+}
+
+.slider{
+    margin: 25px 35px;
+}
+
+.otros img {
+    width: 350px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.slider img {
+    width: 350px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.slider img:hover {
+    filter: brightness(70%);
+}
+
+/* Selector temporadas y capitulos */
+.selector{
+    margin-top: 10px;
+}

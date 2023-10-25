@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/registro.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/registro.js"></script>
+    <title>Registro</title>
+</head>
+<body>
+    <header><h1>Registrarse</h1></header>
+    <main>
+        <form action="index.html" method="post" enctype="multipart/form-data">
+            <div class="contenedor">
+                <div>
+                    <label for="nombre">Nombre</label><input type="text" placeholder=" Ingrese nombre" name="nombre" id="nombre"><br><br>
+                    <label for="apellido">Apellido</label><input type="text" placeholder=" Ingrese apellido" name="apellido" id="apellido"><br><br>
+                    <label for="mail">E-mail</label><input type="email" placeholder=" Ingrese email" name="mail" id="mail"><br><br>
+                    <label for="nombreu">Nombre de usuario</label><input type="text" placeholder=" Nombre de usuario" name="nombreu" id="nombreu"><br><br>
+                    <label for="pass">Contraseña</label><input type="password" placeholder=" Contraseña" name="pass" id="pass"><br><br>
+                    <label for="rpass">Repetir contraseña</label><input type="password" placeholder=" Repetir contraseña" name="rpass" id="rpass">
+                </div>
+                <div>
+                    <p>Método de pago</p><br>
+                    <input class="metopago" id="tarjeta" type="radio" name="mpago" value="tarjeta">Tarjeta de crédito<br><br>
+                    <input id="numt" type="number" name="numt" placeholder=" Número de tarjeta" min="16" max="19">
+                    <input id="codt" type="number" name="codt" placeholder=" Cód. seguridad" min="3" max="4"><br><br>
+                    <input class="metopago" id="cupon" type="radio" name="mpago" value="cupon">Cupón de pago <br><br>
+                    <input class="cupondepago" id="cpago" type="radio" name="cpago" value="pfacil">Pago fácil
+                    <input class="cupondepago" id="cpago" type="radio" name="cpago" value="rpago">RapiPago <br><br>
+                    <input class="metopago" id="tarjeta" type="radio" name="mpago" value="tarjeta">Transferencia bancaria<br><br>
+                    <p>CBU: 21839094111000018971375</p>
+                </div>
+            </div>
+                <button class="botonv" disabled>Confirmar</button>
+                <button class="botonr">Cancelar</button><br><br>
+            </form>
+            <div class="errores"></div>
+    </main>
+</body>
+</html>

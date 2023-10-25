@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/funciones.js"></script>
+    <title>Pagina Principal</title>
+</head>
+<body>
+    <header>
+        <nav id="menu">
+            <a id="home" href="#menu">Home</a>
+            <a id="fseries" href="#series">Series</a>
+            <a id="fpeliculas" href="#peliculas">Peliculas</a> 
+            <a href="Perfil-Usuario.html" target="_blank">Perfil</a>
+            <a href="login.html" id="cerrarSesion">Cerrar sesion</a>
+        </nav>
+        <section class="categoria">
+        <form action="#" method="post">
+           <label for="categorias">Categorias</label>
+           <select id="categorias" name="categorias">
+            <option value="1">Seleccionar Categoria</option>
+            <option value="terror">Terror</option>
+            <option value="accion">Acción</option>
+            <option value="drama">Drama</option>
+            <option value="romance"> Romance</option>
+            <option value="cienciaficcion">Ciencia Ficción</option>
+            </select>
+        </form>
+        <input type="search" name="buscador" class="buscador" placeholder=" Buscar por nombre" id="buscador">
+        </section>
+        <div>
+            <h2 id="series">Series</h2>
+        </div>
+    </header>
+    <main>
+        <section class="listasSeries">
+            <article class="container">
+            <div class="item">
+                <a class="cromance" href="bridgerton.html" target="_blank"><img src="./img/series/bridgerton.png" alt="serie1"></a>
+            </div>
+            <div class="item">
+               <a class="cficcion" href="dark.html"target="_blank"><img src="./img/series/dark.png" alt="serie1"></a>
+            </div>
+            <div class="item">
+                <a class="cdrama" href="gambito-de-dama.html"><img src="./img/series/gambito-de-dama.png" alt="serie1"></a>
+            </div>
+            <div class="item">
+              <a class="caccion" href="la-casa-de-papel.html" target="_blank"><img src="./img/series/lcdp.png" alt="serie1"><data tipo ='pelicula' genero='accion' nombre='la casa de papel'></data></a> 
+            </div>
+            <div class="item">
+               <a class="cficcion" href="ozark.html"target="_blank"><img src="./img/series/ozark.png" alt="serie1"></a> 
+            </div>
+            <div class="item">
+                <a class="caccion" href="peaky-blinders.html"target="_blank"><img src="./img/series/peaky-blinders.png"alt="serie1"></a> 
+            </div>
+            <div class="item">
+               <a class="cficcion" href="stanger-things.html" target="_blank"><img src="./img/series/stranger-things.png" alt="serie1"></a> 
+            </div>
+            <div class="item">
+                <a class="cdrama" href="the-sinner.html" target="_blank"><img src="./img/series/the-sinner.png" alt="serie1"></a>
+            </div>
+            <div class="item">
+               <a class="caccion" href="el-marginal.html" target="_blank"> <img src="./img/series/el-marginal.png" alt="serie1"></a> 
+            </div>       
+        </article>
+
+    </section>
+<section class="listaPeliculas">
+        <div>
+            <h2 id="peliculas">Peliculas</h2>
+        </div>
+        <article class="containerPelicula">
+            
+        <div class="item2">
+           <a class="cdrama" href="365-days.html" target="_blank"><img src="./img/peliculas/365days.png" alt="Pelicula"></a> 
+        </div>
+        <div class="item2">
+           <a class="cdrama" href="barry.html" target="_blank"><img src="./img/peliculas/barry.png" alt="Pelicula"></a>
+        </div>
+        <div class="item2">
+           <a class="cficcion" href="dr-strange.html" target="_blank"><img src="./img/peliculas/drstrange2.png" alt="Pelicula"></a> 
+        </div>
+        <div class="item2">
+            <a class="cterror" href="el-telefono.html" target="_blank"><img src="./img/peliculas/el-telefono.png" alt="Pelicula"></a>
+        </div>
+        <div class="item2">
+           <a class="cterror" href="guerra-mundial-z.html" target="_blank"><img src="./img/peliculas/gmz.png" alt="Pelicula"></a> 
+        </div>
+        <div class="item2">
+           <a class="cficcion" href="spiderman.html" target="_blank"><img src="./img/peliculas/no-way-home.png" alt="Pelicula"></a> 
+        </div>
+        <div class="item2">
+            <a class="cficcion" href="sonic.html" target="_blank"><img src="./img/peliculas/sonic.png" alt="Pelicula"></a>
+        </div>
+        <div class="item2">
+            <a class="cficcion" href="batman.html" target="_blank"><img src="./img/peliculas/batman.png" alt="Pelicula"></a> 
+         </div>
+         <div class="item2">
+            <a class="caccion" href="joker.html" target="_blank"><img src="./img/peliculas/joker.png" alt="Pelicula"></a>
+         </div>
+    </article>
+</section>
+ 
+    </main>
+    <footer>
+        <a href="#menu">Video Club</a>
+    </footer>
+    
+</body>
+</html>

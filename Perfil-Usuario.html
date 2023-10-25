@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/perfil.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/validacionDePerfil.js"></script>
+    <title>Perfil Usuario</title>
+</head>
+<body>
+    <header>
+        
+            <nav id="menu">
+                <a href="index.html">Home</a>
+                <a href="index.html" class="caja">Series</a>
+                <a href="index.html">Peliculas</a> 
+                <a href="Perfil-Usuario.html">Perfil</a>
+            </nav>
+           <h1>Perfil</h1>
+       
+    </header>
+    <main>
+        <div id="fotoUsuario">
+            <img src="./img/fotoPerfilUsuario.png" alt="foto usuario" width="200">
+            <h3>Nombre de usuario</h3>
+            <p>Email : usuario@gmail.com</p> 
+        <p>Contraseña : ***********</p>
+        </div>
+        <section>
+
+      <form action="#" name="form" id="form">
+        <div class="cajaContraseña">
+            <p><span>Nueva Contraseña</span></p>
+        <label for="pass">Contraseña:</label>
+        <input type="password" placeholder=" Contraseña" name="pass" id="pass">
+           <br><br>
+        <label for="rpass">Repetir contraseña:</label>
+        <input type="password" placeholder=" Repetir contraseña" name="rpass" id="rpass">
+          </div>
+        <div class="cajaMetodoDePago">
+            <p>Método de pago</p><br>
+            <input class="metopago" id="tarjeta" type="radio" name="mpago" value="tarjeta">Tarjeta de crédito<br><br>
+            <input type="text" placeholder="1234 5678 9012 3456" id="numeroTarjeta" name="numeroTarjeta">
+            <input type="text" placeholder="123" maxlength="3" id="Ultimosdigitos" name="Ultimosdigitos">             <br><br>
+            <input class="metopago" id="cupon" type="radio" name="mpago" value="cupon">Cupón de pago  <br><br>
+            <input class="cupondepago" id="cpago" type="checkbox" name="cpago" value="pfacil">Pago fácil
+            <input class="cupondepago" id="cpago" type="checkbox" name="cpago" value="rpago">RapiPago              <br><br>
+            <input class="metopago" id="tarjeta" type="radio" name="mpago" value="tarjeta">Transferencia bancaria   <br><br>
+            <p>CBU: 21839094111000018971375</p>
+        </div>  
+        <input type="submit" value="Guardar" class="botonv">
+            <div id="mensaje" class="error">
+
+            </div>
+
+
+    </form>
+</section>
+    </main>
+    <footer></footer>
+
+</body>
+</html>

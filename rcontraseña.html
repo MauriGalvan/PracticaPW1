@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/rcontraseña.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/rcontra.js"></script>
+    <title>Recuperar contraseña</title>
+</head>
+<body>
+    <header><h1>Recuperar Contraseña</h1></header>
+    <main>
+            <form action="login.html" method="post" enctype="multipart/form-data">
+                <div class="contenedor">
+                    <div>
+                        <label for="mail">Email</label><br><br>
+                        <label for="usuario">Nombre de usuario</label>
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Ingrese email" name="mail" id="mail"><br><br>
+                        <input type="text" placeholder="Ingrese nombre de usuario" name="contraseña" id="contraseña">
+                    </div>
+                </div>
+                <button class="botonv">Enviar Email</button>
+                <button class="botonr">Cancelar</button><br><br>
+            </form>
+            <p class="error">Completar los campos para inciar sesión</p>
+    </main>
+</body>
+</html>
